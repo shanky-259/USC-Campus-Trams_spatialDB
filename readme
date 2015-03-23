@@ -1,7 +1,8 @@
  
-Compile :  javac -sourcepath src -cp ojdbc7.jar hw2.java
+Compile :  javac -sourcepath src -cp ojdbc7.jar USC_Trams_Imp.java
 
-Run : java -cp ojdbc7.jar:. hw2 [args1] [args2]
+Run : java -cp ojdbc7.jar:. USC_Trams_Imp [args1] [args2]
 
-Note : I am running oracle 11g in virtual machine and connecting it to eclipse on my mac.
-So i will have to open the java file and change the ip address in the connection string.
+Created a Spatial Database using Oracle 11g SDO Datatypes that captured a part of USC Campus Trams map.
+Built a model in java to find nearest stops, distances between objects and overlapping objects using SQL queries.
+
